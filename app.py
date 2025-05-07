@@ -15,13 +15,17 @@ def index():
 @app.get("/instituicoes")
 def instituicoesResource():
     print("Get - Instituições")
+    
+    page = int(request.args.get('page', 1))
+    per_page = int(request.args.get('per_page', 20))
+    offset = (page - 1) * per_page
 
     try:
         instituicoesEnsino = []
 
         conn = sqlite3.connect('censoescolar.db')
         cursor = conn.cursor()
-        cursor.execute('SELECT * FROM tb_instituicao')
+        cursor.execute('SELECT * FROM tb_instituicao LIMIT  ? OFFSET ?', (per_page, offset))
         resultSet = cursor.fetchall()
 
         for row in resultSet:
