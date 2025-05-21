@@ -1,7 +1,11 @@
 PRAGMA foreign_keys = ON;
 
-
+DROP TABLE IF EXISTS tb_instituicao;
+DROP TABLE IF EXISTS tb_municipio;
+DROP TABLE IF EXISTS tb_microrregiao;
+DROP TABLE IF EXISTS tb_mesorregiao;
 DROP TABLE IF EXISTS tb_uf;
+
 CREATE TABLE tb_uf (
     id INTEGER PRIMARY KEY,
     sigla TEXT NOT NULL,
@@ -10,8 +14,6 @@ CREATE TABLE tb_uf (
     regiao_nome TEXT NOT NULL
 );
 
-
-DROP TABLE IF EXISTS tb_mesorregiao;
 CREATE TABLE tb_mesorregiao (
     id INTEGER PRIMARY KEY,
     nome TEXT NOT NULL,
@@ -24,8 +26,6 @@ CREATE TABLE tb_mesorregiao (
     FOREIGN KEY (uf_id) REFERENCES tb_uf(id)
 );
 
-
-DROP TABLE IF EXISTS tb_microrregiao;
 CREATE TABLE tb_microrregiao (
     id INTEGER PRIMARY KEY,
     nome TEXT NOT NULL,
@@ -41,8 +41,6 @@ CREATE TABLE tb_microrregiao (
     FOREIGN KEY (uf_id) REFERENCES tb_uf(id)
 );
 
-
-DROP TABLE IF EXISTS tb_municipio;
 CREATE TABLE tb_municipio (
     id INTEGER PRIMARY KEY,
     nome TEXT NOT NULL,
@@ -61,7 +59,6 @@ CREATE TABLE tb_municipio (
     FOREIGN KEY (uf_id) REFERENCES tb_uf(id)
 );
 
-DROP TABLE IF EXISTS tb_instituicao;
 CREATE TABLE tb_instituicao (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     no_regiao TEXT NOT NULL,
@@ -71,14 +68,8 @@ CREATE TABLE tb_instituicao (
     no_microrregiao TEXT NOT NULL,
     co_entidade TEXT NOT NULL,
     qt_mat_bas TEXT NOT NULL,
-    co_regiao INTEGER NOT NULL,
-    co_uf INTEGER NOT NULL,
+    co_regiao TEXT NOT NULL,
+    co_uf TEXT NOT NULL,
     co_municipio INTEGER NOT NULL,
-    co_microrregiao INTEGER NOT NULL,
-    co_mesorregiao INTEGER NOT NULL,
-    FOREIGN KEY (co_uf) REFERENCES tb_uf(id),
-    FOREIGN KEY (co_municipio) REFERENCES tb_municipio(id),
-    FOREIGN KEY (co_microrregiao) REFERENCES tb_microrregiao(id),
-    FOREIGN KEY (co_mesorregiao) REFERENCES tb_mesorregiao(id)
+    FOREIGN KEY (co_municipio) REFERENCES tb_municipio(id)
 );
-
