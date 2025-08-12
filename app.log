@@ -1,0 +1,55 @@
+2025-07-23 19:21:57,910 - INFO - Get - Instituições
+2025-07-23 19:21:57,911 - INFO - Paginação - Página: 1, Por página: 10
+2025-07-23 19:21:58,043 - ERROR - Erro ao paginar instituições: syntax error at or near "OFFSET"
+LINE 3:                 LIMIT ? OFFSET ?
+                                ^
+
+2025-07-29 23:25:22,059 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:25:40,105 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:26:43,675 - INFO - POST - Criar nova Instituição
+2025-07-29 23:41:39,881 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:41:39,882 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-29 23:41:48,749 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:41:48,750 - ERROR - Erro ao consultar instituições: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Instituicao(tb_instituicao)]'. Original exception was: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-29 23:42:48,383 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:42:48,384 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-29 23:45:01,719 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:45:01,721 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-29 23:45:15,944 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:45:15,945 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-29 23:46:17,932 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:46:17,932 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Municipio(tb_municipio)], expression 'Mesorregiao' failed to locate a name ('Mesorregiao'). If this is a class name, consider adding this relationship() to the <class 'models.Municipio.Municipio'> class after both dependent classes have been defined.
+2025-07-29 23:47:10,987 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:47:10,988 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Mesorregiao(tb_mesorregiao)], expression 'UF' failed to locate a name ('UF'). If this is a class name, consider adding this relationship() to the <class 'models.Mesorregiao.Mesorregiao'> class after both dependent classes have been defined.
+2025-07-29 23:48:33,282 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:48:33,282 - ERROR - Erro ao consultar instituições: Could not determine join condition between parent/child tables on relationship Microrregiao.uf - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2025-07-29 23:49:12,973 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:49:12,974 - ERROR - Erro ao consultar instituições: Could not determine join condition between parent/child tables on relationship Microrregiao.uf - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2025-07-29 23:51:36,764 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:51:36,765 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-29 23:52:23,426 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:52:23,429 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Municipio(tb_municipio)], expression 'Microrregiao' failed to locate a name ('Microrregiao'). If this is a class name, consider adding this relationship() to the <class 'models.Municipio.Municipio'> class after both dependent classes have been defined.
+2025-07-29 23:53:02,234 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:57:04,361 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:57:04,362 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-29 23:57:50,400 - INFO - GET - Lista de Instituições com paginação
+2025-07-29 23:57:50,401 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-30 00:10:13,723 - INFO - GET - Lista de Instituições com paginação
+2025-07-30 00:10:13,724 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-30 00:12:58,293 - INFO - GET - Lista de Instituições com paginação
+2025-07-30 00:12:58,294 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-30 00:15:35,843 - INFO - GET - Lista de Instituições com paginação
+2025-07-30 00:15:35,844 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-30 00:16:52,465 - INFO - GET - Lista de Instituições com paginação
+2025-07-30 00:16:52,465 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-30 00:19:02,315 - INFO - GET - Lista de Instituições com paginação
+2025-07-30 00:19:02,316 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-30 00:20:44,904 - INFO - GET - Lista de Instituições com paginação
+2025-07-30 00:20:44,905 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-30 00:24:06,374 - INFO - GET - Lista de Instituições com paginação
+2025-07-30 00:24:06,375 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-30 00:26:41,950 - INFO - GET - Lista de Instituições com paginação
+2025-07-30 00:26:41,951 - ERROR - Erro ao consultar instituições: When initializing mapper Mapper[Instituicao(tb_instituicao)], expression 'Municipio' failed to locate a name ('Municipio'). If this is a class name, consider adding this relationship() to the <class 'models.Instituicao.Instituicao'> class after both dependent classes have been defined.
+2025-07-30 00:30:11,277 - INFO - GET - Lista de Instituições com paginação
+2025-07-30 00:31:46,178 - INFO - GET - Lista de Instituições com paginação
+2025-08-06 21:14:09,513 - INFO - GET - Lista de Instituições com paginação
